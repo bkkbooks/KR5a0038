@@ -1,0 +1,63 @@
+canonical_identifier: bkk:krp/KR5a0038/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0038/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上昇玄三一融神變化妙經
+  date: '2015-08-28 23:35:15.334385'
+  source:
+    repository: kanripo
+    path: KR5a0038
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0038_000-ZTDZ.yaml, hash: 'sha256:b4a5982643e9c2fac26e0da25ee097ce39cb2ed84fc447fe105d0a1ddc37d04f'}
+  - {seq: 1, filename: KR5a0038_001-ZTDZ.yaml, hash: 'sha256:b6b572e697e4122efc4865380eda0c2a9ce99cc4dcac842aaaaed7fabb5a1eed'}
+  - {seq: 2, filename: KR5a0038_002-ZTDZ.yaml, hash: 'sha256:159b9a38fe25713a6c442a80961cd37465a48089eff5876128fb0d8216e6de72'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0038_000-ZTDZ.markers.yaml, hash: 'sha256:7f90bbd50e6eb15dd46bcd70f8d44d24d910422aead62d475463c011c250772e'}
+  - {seq: 1, role: markers, filename: assets/KR5a0038_001-ZTDZ.markers.yaml, hash: 'sha256:bf6b4127b3c5c88778df7e3e70415824d058063650eec503750ed4280124f4bf'}
+  - {seq: 2, role: markers, filename: assets/KR5a0038_002-ZTDZ.markers.yaml, hash: 'sha256:2f7da7566301bc1c229b4462c676ec44497cceb709bad9aad7747593e0a02759'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: ''
+    span:
+    - body
+    - 0
+    - 0
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5a0038_SJB_001-010851b
+    span:
+    - body
+    - 0
+    - 1334
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5a0038_SJB_002-010853a
+    span:
+    - body
+    - 0
+    - 852
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:53da9942aeba452e3c5a99537c456e1823b11f53a129fa3cdc7e860be6a22439

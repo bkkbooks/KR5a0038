@@ -1,0 +1,23 @@
+canonical_identifier: bkk:krp/KR5a0038/krp/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上昇玄三一融神變化妙經
+  edition:
+    short: krp
+  base_edition: HFL
+  date: '2015-08-28 23:35:15.334385'
+  source:
+    repository: kanripo
+    path: KR5a0038/KR5a0038_000.txt
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+hash: sha256:8313582fb20a88a505b9ef5fd990045afa379174b58c85d5f048d6a3685fb010

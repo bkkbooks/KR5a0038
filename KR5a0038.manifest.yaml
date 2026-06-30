@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR5a0038/v1
+canonical_location: https://kanripo.org/bkk/KR5a0038/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 太上昇玄三一融神變化妙經
+  identifiers:
+    alt_id:
+    - DZ0038
+  date: '2015-08-28 23:35:15.334385'
+  source:
+    repository: kanripo
+    path: KR5a0038
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0038_000.yaml, hash: 'sha256:8313582fb20a88a505b9ef5fd990045afa379174b58c85d5f048d6a3685fb010'}
+  - {seq: 1, filename: KR5a0038_001.yaml, hash: 'sha256:6de822ee2110c068afc14bc3d714a994631fcc7b7b0976c7f85eecaa6de8989e'}
+  - {seq: 2, filename: KR5a0038_002.yaml, hash: 'sha256:de5ab59d1a635a2b1689c8709675c8e00c7e58a38e7c28233c91c1eafb288e40'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5a0038_001.markers.yaml, hash: 'sha256:96bbf186cc0097a41ba3fdcf0ff6e5225205dc15a72d4c6d5fa1dfcfab7358bd'}
+  - {seq: 2, role: markers, filename: assets/KR5a0038_002.markers.yaml, hash: 'sha256:b263628a3574f64760a17121e3f7afc8c0fed7081c392b6c3dc8f3a2010b1584'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5a0038_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 1334
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5a0038_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 852
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:6babefddf67802fee2a13a489464369d5b6c4cafec71b3169baa3e72f855f433
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
